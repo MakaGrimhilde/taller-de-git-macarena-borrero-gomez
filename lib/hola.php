@@ -1,5 +1,5 @@
 <?php
-// Autor: Macarena Borrero Gómez <mborrerogomez@iessansebastian.com>
-// El nombre por defecto es Mundo
-$nombre = isset($argv[1]) ? $argv[1] : "Mundo";
+// Autor: Macarena Borrero Gómez <mborrerogomez@iessanse.com>
+print "Introduce tu nombre:";
+$nombre = trim(fgets(STDIN));
 @print "Hola, {$nombre}\n";
